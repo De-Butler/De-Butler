@@ -1,0 +1,48 @@
+@import './styles/pages/TopNavi.scss';
+@import './styles/components/firstpage.scss';
+@import './styles/components/secondpage.scss';
+@import './styles/components/thirdpage.scss';
+
+html {
+    font-size:  20px;
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: "raleway";
+    src: url("./assets/font/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "manrope Light";
+    src: url("./assets/font/Manrope-Light.ttf");
+}
+
+@font-face {
+    font-family: "manrope medium";
+    src: url("./assets/font/Manrope-Medium.ttf");
+}
+
+@font-face {
+    font-family: "manrope Regular";
+    src: url("./assets/font/Manrope-Regular.ttf");
+}
+@font-face {
+    font-family: "manrope SemiBold";
+    src: url("./assets/font/Manrope-SemiBold.ttf");
+}
+@font-face {
+    font-family: "manrope Bold";
+    src: url("./assets/font/Manrope-Bold.ttf");
+}
+@font-face {
+    font-family: "manrope ExtraBold";
+    src: url("./assets/font/Manrope-ExtraBold.ttf");
+}

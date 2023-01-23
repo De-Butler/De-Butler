@@ -1,0 +1,102 @@
+.firstpage {
+  position: relative;
+  padding-top: 100px;
+  height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+.CopyTextSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  bottom: 5%;
+  color: white;
+}
+
+.CopyTextBox {
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding: 3vh 0;
+  font-size: 4rem;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  font-family: "manrope ExtraBold";
+}
+
+.CopyText1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  color: #000;
+  -webkit-text-stroke: 1px #D0E957;
+  text-shadow: 2px 2px 4px #D0E957;
+  transition: all 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.CopyText1:hover {
+  color: #D0E957;
+}
+
+.CopyText2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #000000;
+  -webkit-text-stroke: 1px #FFBC02;
+  text-shadow: 2px 2px 4px #FFBC02;
+  transition: all 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.CopyText2:hover {
+  color: #FFBC02;
+}
+
+.CopyText3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  -webkit-text-stroke: 1px #F1B2D7;
+  text-shadow: 4px 4px 4px #F1B2D7;
+  color: #000000;
+  transition: all 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.CopyText3:hover {
+  color: #F1B2D7;
+}
+
+@media screen and (max-width: 1200px) {
+  .CopyTextBox {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .CopyTextBox {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .CopyTextBox {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .CopyTextBox {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=firstpage.css.map */
