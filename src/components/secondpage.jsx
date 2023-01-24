@@ -12,7 +12,7 @@ const Intro = () => {
                   De-Butler는 Decentralized Butler로 탈중앙화 세계인 Web3.0세상으로 가는데 도움을 주는 집사를 의미합니다.
                 </div>
                 <div className="Qustion_description_text">
-                  또한 개발자 중심으로 이루어진 학회로 Web3 Mass Adoption을 목표로 세워진 학회입니다.
+                  Web3를 누구나 쉽게 접하게 하기 위해, 진입장벽을 낮추는 Web3 Mass Adoption을 목표로 세워진 학회입니다.
                 </div>
               </div>
             </div>
