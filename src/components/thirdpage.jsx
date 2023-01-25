@@ -44,7 +44,7 @@ const Activity = () => {
                     <div className="smallTitle">Technical</div>
                      <div className="activedescriptionbox">
                         <ul>
-                            <li className="description">web3를 위한 기본 개발 지식 습득</li>
+                            <li className="description">Web3를 위한 기본 개발 지식 습득</li>
                             <li className="description">다양한 체인별 컨트랙트 개발</li>
                             <li className="description">기초 암호학 학습</li>
                             <li className="description">블록체인 Wallet 만들기</li>

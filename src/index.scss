@@ -14,6 +14,26 @@ body {
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 4100px) {
+    html {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 3000px) {
+    html {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1980px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
 
 @font-face {
     font-family: "raleway";

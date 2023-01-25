@@ -26,6 +26,7 @@
     display: flex;
     padding: 3vh 0;
     font-size: 4rem;
+    
     //border
     border-width: 1px 0px;
     border-style: solid;
@@ -33,6 +34,7 @@
 
     font-family: "manrope ExtraBold" ;
 }
+
 
 .CopyText1 {
     display: flex;
@@ -44,6 +46,7 @@
     text-shadow: 2px 2px 4px #D0E957;
     transition: all 0.5s;
     transition-timing-function: ease-out;
+
 }
 .CopyText1:hover {
     color: #D0E957;
@@ -79,6 +82,7 @@
 .CopyText3:hover {
     color: #F1B2D7;
 }
+
 
 @media screen and (max-width: 1200px) {
     .CopyTextBox {

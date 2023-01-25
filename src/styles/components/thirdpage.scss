@@ -88,12 +88,13 @@
     border-style: solid;
     border-color: #000000;
 }
+
 .description {
     padding-top:20px;
     text-align: left;
     width: 86%;
     padding: 0 7%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     list-style-position: outside;
     margin-top: 10px;
 }
@@ -124,6 +125,53 @@ li.description {
     border-color: white;
     border-style: solid;
 }
+
+@media screen and (max-width: 4100px) {
+    .ActivityBox{
+        width: 640px;
+        height: 1200px;
+    }
+    .smallTitle {
+        padding-bottom: 70px;
+    }
+
+    ul {
+        padding: 0 0 0 70px;
+        margin: 0;
+    }
+
+    .applybox {
+        width: 12%;
+        height: 120px;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 3000px) {
+    .ActivityBox{
+        width: 500px;
+        height: 800px;
+    }
+    ul {
+        padding: 0 0 0 50px;
+        margin: 0;
+    }
+    .applybox {
+        width: 12%;
+        height: 80px;
+        border-radius: 30px;
+    }
+}
+
+
+@media screen and (max-width: 2000px) {
+    .ActivityBox{
+        width: 250px;
+        height: 400px;
+    }
+}
+
+
 
 @media screen and (max-width: 1200px) {
     .Web3Text {
@@ -176,7 +224,7 @@ li.description {
     .ActivityBox:hover .activedescriptionbox{
         display: flex;
         visibility: visible;
-        
+        opacity: 1;
         flex-direction: column;
         height: 75%;
         font-size: 0.8rem;
