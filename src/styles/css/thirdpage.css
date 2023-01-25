@@ -155,6 +155,9 @@ li.description {
     width: 250px;
     height: 400px;
   }
+  .smallTitle {
+    padding-bottom: 30px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .Web3Text {
