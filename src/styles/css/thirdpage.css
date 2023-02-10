@@ -103,20 +103,6 @@ li.description {
   margin-right: 0;
 }
 
-.applybox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 50px;
-  color: white;
-  margin-bottom: 10vh;
-  border-radius: 10px;
-  border-width: 1px 1px 1px 1px;
-  border-color: white;
-  border-style: solid;
-}
-
 @media screen and (max-width: 4100px) {
   .ActivityBox {
     width: 640px;

@@ -1,4 +1,6 @@
+
 const Activity = () => {
+
     return(
         <div id="Activity" className="ActivitySection">
             <div className="Web3Text">
@@ -52,9 +54,6 @@ const Activity = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div id="Recruit" className="applybox" onClick={() => window.open("https://docs.google.com/forms/d/1Xoq04rCBKxSp1IkwLu6UCMHlNvRU4S70a_kmGLthhvs/prefill")}>
-                    1기 지원하기
             </div>
         </div>
     )

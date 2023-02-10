@@ -1,0 +1,16 @@
+.PartnerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.PartnerSection .Partner_h1 {
+  display: flex;
+  font-size: 2rem;
+}
+.PartnerSection .Partners {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 20px;
+}/*# sourceMappingURL=partner.css.map */
