@@ -6,7 +6,7 @@ const Intro = () => {
         <div id="About" className="IntroTextSection">
           <div className="IntroTextBox">
             <div className="DeBulter">
-              <div className="Qustion">What is De-Bulter?</div>
+              <div className="Qustion">What is De-Butler?</div>
               <div className="Qustion_description">
                 <div className="Qustion_description_text">
                   De-Butler는 Decentralized Butler로 탈중앙화 세계인
