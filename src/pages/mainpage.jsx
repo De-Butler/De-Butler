@@ -6,6 +6,7 @@ import Intro from '../components/secondpage';
 import Activity from '../components/thirdpage';
 import Partner from '../components/partner';
 import ApplyButton from '../components/applyButton';
+import Footer from '../components/footer';
 
 const Main  = () => {
     return (
@@ -19,6 +20,7 @@ const Main  = () => {
             </Routes>
             <Partner/>
             <ApplyButton/>
+            <Footer/>
         </BrowserRouter>
     )
 } 

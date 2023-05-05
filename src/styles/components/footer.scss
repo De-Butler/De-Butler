@@ -1,0 +1,22 @@
+
+.footer{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 90vw;
+    height: 32px;
+    background-color: black;
+    border-top: 1px solid white;
+    padding: 10px 5vw;
+    
+    gap: 10px;
+    color: white;
+    padding-right: 50px;
+
+    .icon {
+        padding: 5px 5px;
+    }
+
+}
