@@ -5,6 +5,7 @@
   "engines": {
     "node": "16.x.x"
   },
+  "homepage": "https://debutler.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
