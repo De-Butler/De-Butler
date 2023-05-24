@@ -1,9 +1,12 @@
 .PartnerSection {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+  padding-bottom: 5vh;
+  overflow-x: hidden;
 }
 .PartnerSection .Partner_h1 {
   display: flex;
@@ -12,5 +15,26 @@
 .PartnerSection .Partners {
   display: flex;
   flex-direction: row;
-  padding: 30px 20px;
+}
+.PartnerSection .Partner {
+  padding: 30px;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .PartnerSection .Partners {
+    flex-direction: column;
+  }
+  .PartnerSection .Partner_h1 {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .PartnerSection .Partner {
+    margin: 0px;
+    width: 200px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=partner.css.map */

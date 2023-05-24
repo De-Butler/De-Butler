@@ -5,6 +5,7 @@
   width: 100vw;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .Web3Text {

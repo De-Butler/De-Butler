@@ -9,6 +9,8 @@ import ApplyButton from '../components/applyButton';
 import Footer from '../components/footer';
 
 const Main  = () => {
+    document.body.style.overflowX = "hidden";
+
     return (
         <BrowserRouter>
             <TopNavi />
@@ -18,9 +20,11 @@ const Main  = () => {
                 <Route exact path={"/Activity"} element={<Activity />}></Route>
                 <Route exact path={"/Recruit"} element={<ApplyButton />}></Route>
             </Routes>
-            <Partner/>
-            <ApplyButton/>
-            <Footer/>
+            <div style={{width:"100vw"}}>
+                <Partner/>
+                <ApplyButton/>
+                <Footer/>
+            </div>
         </BrowserRouter>
     )
 } 
