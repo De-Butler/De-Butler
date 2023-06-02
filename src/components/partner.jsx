@@ -1,6 +1,7 @@
 import Creditscend from "../assets/img/CreditScend.png";
 import NearKorea from "../assets/img/nearkr-white.svg";
 import YourD from "../assets/img/YourD-white.png";
+import SeoulMetaweek from "../assets/img/SeoulMetaweek.png";
 
 const Partner = () => {
     return(
@@ -8,10 +9,13 @@ const Partner = () => {
             <div className="Partner_h1">Our Partner</div>
             <div className="Partners">
                 <img src={YourD} alt="YourD" className="Partner"/>
-                <a href="https://nearkorea.org">
+                <a href="https://nearkorea.org" target="_blank" rel="noreferrer">
                     <img src={NearKorea} alt = "NearKorea" className="Partner" />
                 </a>
                 <img src={Creditscend} alt = "Creditscend" className="Partner"/>
+                <a href="https://seoulmetaweek.com/ko/" target="_blank" rel="noreferrer">
+                    <img src={SeoulMetaweek} alt={"SeoulMetaweek"} className="Partner"/>
+                </a>
             </div>
         </section>
     )

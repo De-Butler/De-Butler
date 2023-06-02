@@ -1,4 +1,4 @@
-import Intro from "./secondpage"
+import Intro from "./introduce"
 
 const MainCopy = () => {
     return (

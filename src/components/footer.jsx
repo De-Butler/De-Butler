@@ -19,7 +19,7 @@ export default function Footer() {
 
     return (
         <div className='footer'>
-            <div className='Contact-Box'>Contact
+            <div className='Contact-Box'>
                 <div className='icon' onClick={()=> Twiiter()}><BsTwitter size={28}/></div>
                 <div className='icon' onClick={()=> Instagram()}><AiOutlineInstagram  size={30}/></div>
                 <div className='icon' onClick={()=> Medium()}><RiMediumLine  size={30}/></div>

@@ -2,7 +2,7 @@
 .footer{
     display: flex;
     position: absolute;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 64px;
@@ -16,10 +16,11 @@
         flex-direction: row;
         align-items: center;
         gap: 15px;
-        margin-left: 50px;
+        margin-right: 50px;
     }
     .icon {
-        margin: 10px 5px;
+        margin: 0px 5px;
+        margin-top: 10px;
     }
 
 }
@@ -30,7 +31,6 @@
         .Contact-Box {
             gap: 10px;
             margin-left: 30px;
-    
         }
         .icon {
             margin: 10px 5px;

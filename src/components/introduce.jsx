@@ -1,4 +1,4 @@
-import Activity from "./thirdpage";
+import Activity from "./activity";
 
 const Intro = () => {
     return (

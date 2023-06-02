@@ -2,8 +2,8 @@ import React from 'react'
 import {Routes,BrowserRouter, Route} from 'react-router-dom';
 import TopNavi from './topNavi';
 import MainCopy from '../components/firstpage';
-import Intro from '../components/secondpage';
-import Activity from '../components/thirdpage';
+import Intro from '../components/introduce';
+import Activity from '../components/activity';
 import Partner from '../components/partner';
 import ApplyButton from '../components/applyButton';
 import Footer from '../components/footer';
