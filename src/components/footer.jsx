@@ -14,7 +14,7 @@ export default function Footer() {
     }
 
     function Medium() {
-        window.open("https://medium.com/@debutler/","_blank");
+        window.open("https://medium.com/de-butler","_blank");
     }
 
     return (
