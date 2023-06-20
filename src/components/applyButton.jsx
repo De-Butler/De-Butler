@@ -6,7 +6,7 @@ const ApplyButton =() => {
         );
     return (
         <section className="apply">
-            <a id="Recruit" href="https://forms.gle/HuQRzbZqdW2vMWhf9" target="_blank" className="button reverse" >
+            <a id="Recruit" rel="noreferrer" href="https://forms.gle/HuQRzbZqdW2vMWhf9" target="_blank" className="button reverse" >
                     1.5기 지원 하기
             </a>
         </section>
