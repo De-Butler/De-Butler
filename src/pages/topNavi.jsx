@@ -8,7 +8,7 @@ const topNavi = () => {
             <div className="Menu">
                 <HashLink smooth to="/#About" className='Link' >학회 소개</HashLink>
                 <HashLink smooth to="/#Activity" className='Link'>학회 활동</HashLink>
-                <HashLink smooth to="/#Recruit" className='Link'>1기 모집</HashLink>
+                <HashLink smooth to="/#Recruit" className='Link'>1.5기 모집</HashLink>
             </div>
         </div>
     )

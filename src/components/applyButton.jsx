@@ -1,9 +1,14 @@
 const ApplyButton =() => {
+    document
+        .querySelectorAll('.button')
+        .forEach(
+            button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>'
+        );
     return (
         <section className="apply">
-            <div id="Recruit" className="applybox" /*onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfz95RGKOow0hInA2cvKmFaD6etgVeEYvJ5V7L7vsZCDGy33w/viewform?usp=sf_link")}*/>
-                    1기 모집 종료
-            </div>
+            <a id="Recruit" href="https://forms.gle/HuQRzbZqdW2vMWhf9" target="_blank" className="button reverse" >
+                    1.5기 지원 하기
+            </a>
         </section>
     )
 }
