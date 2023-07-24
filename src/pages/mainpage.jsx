@@ -15,10 +15,10 @@ const Main  = () => {
         <BrowserRouter>
             <TopNavi />
             <Routes>
-                <Route exact path={"/"} element={<MainCopy />}></Route>
-                <Route exact path={"/About"} element={<Intro />}></Route>
-                <Route exact path={"/Activity"} element={<Activity />}></Route>
-                <Route exact path={"/Recruit"} element={<ApplyButton />}></Route>
+                <Route exact path={"/"} element={<MainCopy />}/>
+                <Route exact path={"/About"} element={<Intro />}/>
+                <Route exact path={"/Activity"} element={<Activity />}/>
+                <Route exact path={"/Recruit"} element={<ApplyButton />}/>
             </Routes>
             <div style={{width:"100vw"}}>
                 <Partner/>

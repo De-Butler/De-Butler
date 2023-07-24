@@ -12,7 +12,7 @@ const Partner = () => {
                 <a href="https://nearkorea.org" target="_blank" rel="noreferrer">
                     <img src={NearKorea} alt = "NearKorea" className="Partner" />
                 </a>
-                <img src={Creditscend} alt = "Creditscend" className="Partner"/>
+                {/* <img src={Creditscend} alt = "Creditscend" className="Partner"/> */}
                 <a href="https://seoulmetaweek.com/ko/" target="_blank" rel="noreferrer">
                     <img src={SeoulMetaweek} alt={"SeoulMetaweek"} className="Partner"/>
                 </a>
